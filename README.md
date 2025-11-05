@@ -38,8 +38,8 @@ in first we need to now the begining of the code is that :
 this are the dependencies of our agent. we call the DuckDuckgo for the web research, liteLLMModel for our mistral-small:24b and the principale library/dependencies is smolagents.
 
 in the second part of the code we have : 
-model = LiteLLMModel(model_id="ollama_chat/mistral-small:24b", api_base="http://127.0.0.1:11434", num_ctx=8192)
-agent = CodeAgent(tools=[DuckDuckGoSearchTool()], model=model)
+  - model = LiteLLMModel(model_id="ollama_chat/mistral-small:24b", api_base="http://127.0.0.1:11434", num_ctx=8192)
+  - agent = CodeAgent(tools=[DuckDuckGoSearchTool()], model=model)
 this two line are the most important because this line are calling our model ai and choice the tokens'limit.
 
 --- 
