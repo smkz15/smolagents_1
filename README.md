@@ -32,7 +32,9 @@ you need :
 # explain the code : 
 
 in first we need to now the begining of the code is that : 
+
 <img width="543" height="24" alt="Capture d’écran 2025-11-05 à 17 06 08" src="https://github.com/user-attachments/assets/98bd4c54-d55f-4275-bba5-27022f5551c1" />
+
 this are the dependencies of our agent. we call the DuckDuckgo for the web research, liteLLMModel for our mistral-small:24b and the principale library/dependencies is smolagents.
 
 in the second part of the code we have : 
