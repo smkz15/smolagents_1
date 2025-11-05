@@ -5,7 +5,7 @@ Today, we will create an agent with the smolagents library using a mistral-small
 you need : 
 
 - ollama : https://ollama.com
-- mistral-small:24b : ollama run mistral-small:24b
+- mistral-small:24b : ollama pull mistral-small:24b
 
 ---
 1) create an virtual environment : "python3 -m venv venv" after when the environment is create "source venv/bin/activate"
@@ -18,9 +18,28 @@ you need :
 3) in the file model1.py ou put the code if you do not downoald the file.
 <img width="879" height="243" alt="Capture d’écran 2025-11-05 à 17 03 42" src="https://github.com/user-attachments/assets/93dddf18-3218-47dc-a904-ddaf014c6e42" />
 
+4) in our terminal we need to do two things :
+   - ollama serve
+   - ollama run mistral-small:24b
+<img width="620" height="207" alt="Capture d’écran 2025-11-05 à 17 14 02" src="https://github.com/user-attachments/assets/eb736a89-73f7-4865-90ee-24ee10afbec5" />
+<img width="633" height="219" alt="Capture d’écran 2025-11-05 à 17 14 22" src="https://github.com/user-attachments/assets/17e20a6f-9757-4e73-bc2b-669107fa96bc" />
 
-5) run the code 
+
+6) run the code 
 <img width="850" height="165" alt="Capture d’écran 2025-11-05 à 16 59 23" src="https://github.com/user-attachments/assets/2c299817-c18e-4d21-b63c-e0611a9c47a4" />
 
 ---
-explain the code : 
+# explain the code : 
+
+in first we need to now the begining of the code is that : 
+<img width="543" height="24" alt="Capture d’écran 2025-11-05 à 17 06 08" src="https://github.com/user-attachments/assets/98bd4c54-d55f-4275-bba5-27022f5551c1" />
+this are the dependencies of our agent. we call the DuckDuckgo for the web research, liteLLMModel for our mistral-small:24b and the principale library/dependencies is smolagents.
+
+in the second part of the code we have : 
+# model = LiteLLMModel(model_id="ollama_chat/mistral-small:24b", api_base="http://127.0.0.1:11434", num_ctx=8192)
+# agent = CodeAgent(tools=[DuckDuckGoSearchTool()], model=model)
+this two line are the most important because this line are calling our model ai and choice the tokens'limit.
+
+--- 
+model AI on ollama for smolagents 
+
