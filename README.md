@@ -22,3 +22,5 @@ you need :
 5) run the code 
 <img width="850" height="165" alt="Capture d’écran 2025-11-05 à 16 59 23" src="https://github.com/user-attachments/assets/2c299817-c18e-4d21-b63c-e0611a9c47a4" />
 
+---
+explain the code : 
