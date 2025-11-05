@@ -14,5 +14,11 @@ you need :
 
 2) install smolagents'library : "pip install smolagents litellm duckduckgo-search ollama"
 <img width="634" height="63" alt="Capture d’écran 2025-11-05 à 16 58 39" src="https://github.com/user-attachments/assets/ab0a23d1-d703-4749-ba2f-d8bd252cc563" />
+
 3) in the file model1.py ou put the code if you do not downoald the file.
+<img width="1113" height="982" alt="Capture d’écran 2025-11-05 à 17 01 26" src="https://github.com/user-attachments/assets/8c02dd40-7da6-42d4-8b04-99149ea54469" />
+
+
+5) run the code 
 <img width="850" height="165" alt="Capture d’écran 2025-11-05 à 16 59 23" src="https://github.com/user-attachments/assets/2c299817-c18e-4d21-b63c-e0611a9c47a4" />
+
