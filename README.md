@@ -43,5 +43,12 @@ in the second part of the code we have :
 this two line are the most important because this line are calling our model ai and choice the tokens'limit.
 
 --- 
-model AI on ollama for smolagents 
+# Which AI model for smolagents ?
+
+The more parameters the model has, the better it will be. to my point of view mistral's model are the best 
+
+<img width="1493" height="875" alt="Capture d’écran 2025-11-05 à 17 19 55" src="https://github.com/user-attachments/assets/13e92309-a7fc-4b57-b125-e3efba201e42" />
+
+i think if your model have more than 12b parameter it's good
+
 
