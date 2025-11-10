@@ -2,6 +2,10 @@
 Today, we will create an agent with the smolagents library using a mistral-small:24b model.
 
 ---
+video : https://www.youtube.com/watch?v=dS5uGSI53dk
+---
+
+---
 you need : 
 
 - ollama : https://ollama.com
